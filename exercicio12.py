@@ -10,3 +10,10 @@ def intervalo (num1, num2):
 
 lista = intervalo(int1, int2)
 print (lista)
+
+def somar_intervalo (lista):
+    soma = sum(lista)
+    return soma
+
+soma = somar_intervalo(lista)
+print (soma)
